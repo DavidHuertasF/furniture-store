@@ -1,16 +1,15 @@
 import Card from "./Card";
 
-function Home() {
+function ItemListContainer({greeting}) {
   return (
     <div className="home_container">
-      Home
+      <h1> {greeting}</h1>
       <Card />
       <Card />
       <Card />
       <Card />
-
     </div>
   );
 }
 
-export default Home;
+export default ItemListContainer;
